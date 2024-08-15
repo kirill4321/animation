@@ -1,0 +1,18 @@
+.kontainer{
+    width: 700px;
+    height: 700px;
+    border: 10px solid black;
+}
+.inner{
+    width: 50%;
+    height: 50%;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.5s Linear Out, Slow In;
+}
+.kontainer:hover .inner{
+    transform: translateX(100%);
+    
+}
